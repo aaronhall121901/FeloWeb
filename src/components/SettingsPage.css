@@ -3,3 +3,25 @@
 .settings {
   margin: 2rem 0;
 }
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.video {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 300px;
+}
+
+.video img {
+  max-width: 100%;
+}
+
+.video p {
+  margin-top: 10px;
+  color: #ffffff;
+}
