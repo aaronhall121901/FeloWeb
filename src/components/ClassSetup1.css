@@ -1,0 +1,10 @@
+.class-setup-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Adjust this value as needed */
+  }
+
+  .content-container {
+    text-align: center;
+  }

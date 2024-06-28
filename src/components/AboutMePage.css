@@ -1,0 +1,42 @@
+/* src/components/AboutMePage.css */
+
+#about-me-page {
+  background-color: #000000; /* Change this to your desired background color */
+  color: #eeeeee;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 2rem; /* Add some padding to the page */
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 1rem; /* Space between the images */
+  margin-top: 2rem;
+}
+
+.gallery-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
