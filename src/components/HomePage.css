@@ -1,6 +1,62 @@
 /* src/components/HomePage.css */
 
-body {
+.center-text {
+    text-align: center;
+  }
+  
+  html, body {
     background-color: #000000;
     color: #ffffff;
-}
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px; /* Add padding to create space at the bottom */
+    background-color: #000000; /* Ensure background color is black */
+  }
+  
+  .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Increased gap for more space between videos */
+    overflow-x: auto; /* Allow horizontal scrolling if videos overflow */
+    padding: 20px 0; /* Add some vertical padding */
+    width: 100%; /* Ensure it takes full width of the parent */
+    
+  }
+  
+  .video {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 90%; /* Make each video take up most of the container width */
+    min-width: 600px; /* Set a minimum width to prevent videos from becoming too small */
+    flex-shrink: 0; /* Prevent videos from shrinking */
+  }
+
+  .video p {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Arial, sans-serif; /* Example: Change font to Arial */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: normal; /* Adjust font weight if necessary */
+  }
+  
+  .video img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video p {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  

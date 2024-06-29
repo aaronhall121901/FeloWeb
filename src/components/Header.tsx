@@ -21,7 +21,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://example.com/matches"
+              href="https://callofdutyleague.com/en-us/schedule"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,11 +29,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a
-              href="https://example.com/stream"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.twitch.tv/felo" target="_blank" rel="twitch">
               Stream
             </a>
           </li>
