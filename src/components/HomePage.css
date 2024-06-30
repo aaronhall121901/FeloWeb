@@ -12,10 +12,6 @@ html, body {
   width: 100%;
 }
 
-.border {
-  border-bottom: 3px solid #333;
-}
-
 body {
   position: relative;
 }
@@ -42,6 +38,13 @@ body {
 
 .center-text {
   text-align: center;
+  padding-top: 35px;
+}
+
+.border{
+  border-bottom: 3px solid #474747;
+  width: 35%;
+  margin: 20px auto;
 }
 
 .videos {
@@ -58,7 +61,7 @@ body {
   max-width: 700px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid #474747;
 }
 
 .video a {

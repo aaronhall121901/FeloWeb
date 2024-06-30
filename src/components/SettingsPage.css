@@ -1,17 +1,40 @@
 /* src/components/SettingsPage.css */
 
+.main-background {
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.589); /* Semi-transparent overlay */
+  width: 100%;
+}
+
 .settings {
   text-align: center; /* Center align the content inside .settings */
+  font-weight:bold;
+  padding-top: 35px;
 }
 
 .youtube-thumbnail-container {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  margin-top: 20px; /* Adjust spacing as needed */
+  margin: 20px auto; /* Center the container and adjust spacing */
 }
 
 .youtube-thumbnail {
-  max-width: 100%; /* Ensure the thumbnail doesn't exceed its container */
+  width: 100%; /* Ensure the thumbnail scales to fit the container */
   height: auto; /* Maintain aspect ratio */
+}
+
+.separator {
+  width: 50%; /* width of the separator */
+  height: 3px; /* Thickness of the separator */
+  background-color: #474747; /* Color of the separator */
+  margin: 20px auto; /* Adjust margin as needed */
 }

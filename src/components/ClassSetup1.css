@@ -1,3 +1,16 @@
+.main-background {
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(0, 0, 0, 0.589); /* Semi-transparent overlay */
+  width: 100%;
+}
+
 .class-setup-1 {
     display: flex;
     flex-direction: column;
@@ -14,9 +27,9 @@
 }
 
 .separator {
-  width: 75%; /* width of the separator */
+  width: 80%; /* width of the separator */
   height: 3px; /* Thickness of the separator */
-  background-color: #111111; /* Color of the separator */
+  background-color: #474747; /* Color of the separator */
   margin: 20px auto; /* Adjust margin as needed */
 }
 

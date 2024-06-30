@@ -1,6 +1,6 @@
 /* src/components/ClassSetupsPage.css */
 
-.background {
+.main-background {
   min-height: calc(100vh - 60px); /* Adjust based on your header height */
   display: flex;
   flex-direction: column;
@@ -12,13 +12,19 @@
   background: rgba(0, 0, 0, 0.589); /* Semi-transparent overlay */
   width: 100%;
 }
+
 .class-setups {
   margin: 2rem 0;
+}
+
+.content {
+  width: 100%;
 }
 
 .names {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color:#fff;
   font-weight:bold;
 }
 

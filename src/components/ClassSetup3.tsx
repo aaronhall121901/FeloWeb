@@ -3,9 +3,15 @@ import React from "react";
 
 const ClassSetup3 = () => {
   return (
-    <div>
-      <h2>Class Setup 3</h2>
-      <p>Details about Class Setup 3...</p>
+    <div className="main-background">
+      <div className="class-setup-1">
+        <div className="content-container">
+          <h2>Felo's Renetti Build</h2>
+          <hr className="separator" />
+          <p>Barrel - MLX Short Competition</p>
+          <p>Rear Grip - EXF Eclipsor</p>
+        </div>
+      </div>
     </div>
   );
 };

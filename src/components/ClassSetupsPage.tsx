@@ -7,9 +7,9 @@ import "./ClassSetupsPage.css";
 
 const ClassSetupsPage = () => {
   return (
-    <div className="background">
+    <div className="main-background">
       <section className="class-setups">
-        <div className="background">
+        <div className="content">
           <div className="names">
             <h2>Class Setups</h2>
           </div>

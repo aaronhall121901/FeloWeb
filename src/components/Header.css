@@ -1,5 +1,5 @@
 .header {
-    background-color: #088ae0;
+    background-color: #0b44699f;
     color: #111111;
     font-size: 1.2rem;
     font-weight: bold;
@@ -22,5 +22,4 @@
   .header nav ul li a {
     color: #111111;
     text-decoration: none;
-    
   }
