@@ -5,8 +5,10 @@ import YouTubeVideos from "./YoutubeVideos";
 const HomePage = () => {
   return (
     <div className="home-page">
-      <h1>Welcome to the Home Page</h1>
-      <YouTubeVideos />
+      <div className="home-page-content">
+        <h1 className="center-text">Welcome to TFel Enterprises</h1>
+        <YouTubeVideos />
+      </div>
     </div>
   );
 };

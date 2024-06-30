@@ -6,7 +6,9 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <p>&copy; {currentYear} Tfel Enterprises</p>
+      <div className="main-content">
+        <p>&copy; {currentYear} Tfel Enterprises</p>
+      </div>
     </footer>
   );
 };

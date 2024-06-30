@@ -1,11 +1,19 @@
 /* src/components/AboutMePage.css */
 
 #about-me-page {
-  background-color: #141414; /* background color */
+  background-color: #111111; /* Change to pure black */
   color: #eeeeee;
   margin: 0;
-  font-family: Arial, sans-serif;
-  padding: 2rem; /* Add some padding to the page */
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
 }
 
 .about-me {

@@ -3,8 +3,20 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh; /* Adjust this value as needed */
-  }
+}
 
-  .content-container {
-    text-align: center;
-  }
+.content-container {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+}
+
+.separator {
+  width: 75%; /* width of the separator */
+  height: 3px; /* Thickness of the separator */
+  background-color: #111111; /* Color of the separator */
+  margin: 20px auto; /* Adjust margin as needed */
+}
+

@@ -1,62 +1,85 @@
 /* src/components/HomePage.css */
 
+html, body {
+  background: url('./assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000000; /* Fallback color */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.border {
+  border-bottom: 3px solid #333;
+}
+
+body {
+  position: relative;
+}
+
+.home-page {
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(0, 0, 0, 0.589); /* Semi-transparent overlay */
+  width: 100%;
+}
+
+.home-page-content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  color: #ffffff;
+}
+
 .center-text {
-    text-align: center;
-  }
-  
-  html, body {
-    background-color: #000000;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  }
+  text-align: center;
+}
 
-  .home-page {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 50px; /* Add padding to create space at the bottom */
-    background-color: #000000; /* Ensure background color is black */
-  }
-  
-  .videos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px; /* Increased gap for more space between videos */
-    overflow-x: auto; /* Allow horizontal scrolling if videos overflow */
-    padding: 20px 0; /* Add some vertical padding */
-    width: 100%; /* Ensure it takes full width of the parent */
-    
-  }
-  
-  .video {
-    border: 1px solid #ffffff;
-    padding: 10px;
-    width: 90%; /* Make each video take up most of the container width */
-    min-width: 600px; /* Set a minimum width to prevent videos from becoming too small */
-    flex-shrink: 0; /* Prevent videos from shrinking */
-  }
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between videos */
+  padding: 20px 0;
+  width: 100%;
+}
 
-  .video p {
-    margin-top: 10px;
-    color: #ffffff;
-    font-family: Arial, sans-serif; /* Example: Change font to Arial */
-    font-size: 16px; /* Adjust font size as needed */
-    font-weight: normal; /* Adjust font weight if necessary */
-  }
-  
-  .video img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .video p {
-    margin-top: 10px;
-    color: #ffffff;
-  }
-  
+.video {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #333;
+}
+
+.video a {
+  display: block;
+  text-decoration: none;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+.video p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0 0 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+}

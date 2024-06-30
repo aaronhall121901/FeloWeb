@@ -15,7 +15,7 @@ const SettingsPage: React.FC = () => {
         vel dui. Donec aliquet risus vel orci bibendum, vel consectetur tellus
         euismod.
       </p>
-      <div className="youtube-thumbnail">
+      <div className="youtube-thumbnail-container">
         <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">
           <img src={thumbnailUrl} alt="YouTube Thumbnail" />
         </a>
